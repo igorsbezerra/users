@@ -1,0 +1,11 @@
+server:
+  address: 0.0.0.0
+  port: 8080
+
+spring:
+  application:
+    name: users
+  data:
+    mongodb:
+      uri: ${MONGO_URL}
+      database: fake_twitter
